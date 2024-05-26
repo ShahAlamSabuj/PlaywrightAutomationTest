@@ -1,0 +1,27 @@
+
+{"type":"before","callId":"hook@1","wallTime":1716721541035,"startTime":1161.404,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@2","parentId":"hook@1","wallTime":1716721541057,"startTime":1179.5,"class":"Test","method":"step","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@3","parentId":"fixture@2","wallTime":1716721541061,"startTime":1185.55,"class":"Test","method":"step","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"true","tracesDir":"C:\\PlaywrightAutomationTest\\test-results\\.playwright-artifacts-1\\traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@3","endTime":1502.209,"attachments":[]}
+{"type":"after","callId":"fixture@2","endTime":1503.262,"attachments":[]}
+{"type":"before","callId":"fixture@4","parentId":"hook@1","wallTime":1716721541383,"startTime":1506.225,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@5","parentId":"fixture@4","wallTime":1716721541390,"startTime":1512.946,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.26 Safari/537.36","viewport":"Object","serviceWorkers":"allow","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@5","endTime":1556.97,"attachments":[]}
+{"type":"after","callId":"fixture@4","endTime":1579.1280000000002,"attachments":[]}
+{"type":"before","callId":"fixture@6","parentId":"hook@1","wallTime":1716721541502,"startTime":1627.674,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@7","parentId":"fixture@6","wallTime":1716721541510,"startTime":1635.103,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@7","endTime":1856.4859999999999,"attachments":[]}
+{"type":"after","callId":"fixture@6","endTime":1858.17,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":1859.414,"attachments":[]}
+{"type":"before","callId":"pw:api@8","wallTime":1716721541746,"startTime":1870.016,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"https://automationexercise.com","waitUntil":"load"},"stack":[{"file":"C:\\PlaywrightAutomationTest\\pages\\homepage.ts","line":10,"column":25,"function":"homePage.goToHomePage"}]}
+{"type":"after","callId":"pw:api@8","endTime":6950.779,"attachments":[]}
+{"type":"before","callId":"expect@9","wallTime":1716721546833,"startTime":6957.499,"class":"Test","method":"step","apiName":"expect.toHaveTitle","params":{"expected":"Automation Exercise"},"stack":[{"file":"C:\\PlaywrightAutomationTest\\tests\\test-cases.spec.ts","line":15,"column":22}]}
+{"type":"after","callId":"expect@9","endTime":7042.694,"attachments":[]}
+{"type":"before","callId":"hook@10","wallTime":1716721546923,"startTime":7044.555,"class":"Test","method":"step","apiName":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@11","parentId":"hook@10","wallTime":1716721546925,"startTime":7047.058,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"after","callId":"fixture@11","endTime":7048.2,"attachments":[]}
+{"type":"before","callId":"fixture@12","parentId":"hook@10","wallTime":1716721546928,"startTime":7050.075,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"after","callId":"fixture@12","endTime":7051.016,"attachments":[]}
+{"type":"after","callId":"hook@10","endTime":7630.811,"attachments":[]}
+{"type":"before","callId":"attach@13","wallTime":1716721548029,"startTime":8151.756,"class":"Test","method":"step","apiName":"attach \"trace\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@13","endTime":8152.821,"attachments":[]}
